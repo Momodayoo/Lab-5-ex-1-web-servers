@@ -12,7 +12,7 @@ app.get('/test', (req, res) => {
     res.send('This is a test')
     })
 
-app1.get('/', (req, res) => {
+app1.get('/test', (req, res) => {
     res.send('yarr!')
 })
 
